@@ -5,7 +5,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd06aa32-fcea-4e5c-b37f-44a97d138e59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/app/controllers/contato.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/app/controllers/home.js.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/app/routes/contato.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/app/routes/home.js.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/app/views/index.ejs.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/public/js/controllers/ContatoController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contatooh/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contatooh/config/express.js" beforeDir="false" afterPath="$PROJECT_DIR$/contatooh/config/express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contatooh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/contatooh/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contatooh/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/contatooh/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean-livro-codigo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/match.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/SOURCES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/lib/custom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/lib/mime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/lib/node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/lib/negotiator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/node_modules/negotiator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/buffer-crc32/tests/crc.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie-signature/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/escape-html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/finalhandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/media-typer/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/media-typer/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/media-typer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/media-typer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/media-typer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/merge-descriptors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/methods/test/methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/parseurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/path-to-regexp/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/Cakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/ipaddr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/lib/ipaddr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.jshintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/range-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/lib/send.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/destroy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/destroy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/destroy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/mime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/types/mime.types" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/mime/types/node.types" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/ms/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/ms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/node_modules/ee-first/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/node_modules/ee-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/node_modules/ee-first/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/node_modules/ee-first/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/node_modules/on-finished/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/send/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/serve-static/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/SOURCES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/custom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/mime.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/lib/node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/type-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/utils-merge/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/vary/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/vary/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/vary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/vary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/vary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/vary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +279,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lucas.souza/Documentos/Lucas/Curso de AngularJS",
+    "last_opened_file_path": "/home/lucas.souza/Documentos/Lucas/All/angular-clone/mean-livro-codigo/cap-12",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +293,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contatooh/public" />
+      <recent name="$PROJECT_DIR$/contatooh/app/views" />
       <recent name="$PROJECT_DIR$/contatooh" />
     </key>
   </component>
@@ -70,7 +313,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718194620426</updated>
-      <workItem from="1718194621707" duration="12885000" />
+      <workItem from="1718194621707" duration="26490000" />
     </task>
     <servers />
   </component>
