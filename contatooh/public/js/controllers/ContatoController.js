@@ -1,5 +1,4 @@
-// public/js/controllers/ContatosController.js
-angular.module('contatooh').controller('ContatosController',
-    function() {
-        var total = 0;
+angular.module('contatooh').controller('ContatoController',
+    function($scope, $routeParams) {
+        console.log($routeParams.contatoId);
     });
